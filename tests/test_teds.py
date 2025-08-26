@@ -218,10 +218,8 @@ class TestTEDSBasic(unittest.TestCase):
             groundtruth=gt,
             table_edit_result=self.valid_table_edit_result
         )
+        assert result.score == 0.7999999999999999
 
-        self.assertTrue(result.success)
-        self.assertGreater(result.score, 0.0)
-        self.assertLess(result.score, 1.0)
 
 
 class TestTEDSAdvanced(unittest.TestCase):
@@ -326,10 +324,7 @@ class TestTEDSAdvanced(unittest.TestCase):
             table2,
             table_edit_result=self.valid_table_edit_result
         )
-
-        self.assertTrue(result.success)
-        self.assertGreater(result.score, 0.0)
-        self.assertLess(result.score, 1.0)
+        assert result.score == 0.3999999999999999
 
 
 class TestStructureTEDS(unittest.TestCase):
