@@ -2,4 +2,4 @@
 rapidfuzz>=3.0.0
 lxml>=4.6.0
 beautifulsoup4>=4.9.0
-apted>=1.2.0
+apted==1.0.3
