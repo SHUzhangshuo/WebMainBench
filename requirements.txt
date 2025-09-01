@@ -1,5 +1,15 @@
-# WebMainBench dependencies
-rapidfuzz>=3.0.0
-lxml>=4.6.0
-beautifulsoup4>=4.9.0
-apted==1.0.3
+rapidFuzz
+setuptools
+jsonlines
+beautifulsoup4
+requests
+torch
+html2text
+resiliparse
+trafilatura
+# llm-web-kit==3.2.0
+https://github.com/opendatalab/magic-html/releases/download/magic_html-0.1.5-released/magic_html-0.1.5-py3-none-any.whl
+streamlit
+markdown
+lxml
+apted
